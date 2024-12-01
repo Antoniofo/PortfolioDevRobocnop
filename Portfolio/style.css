@@ -1,92 +1,81 @@
-/* Style général */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
 }
-
-/* En-tête */
 header {
-  background: #333;
-  color: #fff;
+  background-color: #161b22;
   padding: 1rem 0;
 }
-
-header nav ul {
+nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 0;
   padding: 0;
 }
-
-header nav ul li {
+nav li {
   margin: 0 1rem;
 }
-
-header nav ul li a {
-  color: #fff;
+nav a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+h1, h2 {
+  color: #58a6ff;
+}
+.project {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.project h3 {
+  margin-top: 0;
+}
+.project a {
+  color: #2ea043;
   text-decoration: none;
   font-weight: bold;
 }
-
-/* Sections */
-section {
-  padding: 2rem;
-  text-align: center;
+.project a:hover {
+  text-decoration: underline;
 }
-
-section#projets .project {
-  margin: 1rem 0;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: #fff;
-}
-
-section#github-stats img {
-  max-width: 100%;
-  margin: 1rem 0;
-}
-
-/* Formulaire */
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 2rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 form label {
   display: block;
-  margin: 0.5rem 0;
+  margin: 1rem 0 0.5rem;
 }
-
 form input, form textarea, form button {
   width: 100%;
   padding: 0.5rem;
-  margin: 0.5rem 0;
+  margin-bottom: 1rem;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  background-color: #161b22;
+  color: #c9d1d9;
 }
-
 form button {
-  background: #333;
-  color: #fff;
+  background-color: #2ea043;
+  color: white;
   border: none;
   cursor: pointer;
 }
-
 form button:hover {
-  background: #555;
+  background-color: #24963e;
 }
-
-/* Pied de page */
 footer {
-  background: #333;
-  color: #fff;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
 }
