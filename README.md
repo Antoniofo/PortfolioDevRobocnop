@@ -1,3 +1,5 @@
+![GitHub all releases](https://img.shields.io/github/downloads/Robocnop/PortfolioDevRobocnop/total)
+
 # PortfolioDevRobocnop
 Site en HTML fonctionnant en locale qui permet de montrer mon portfolio de développeur
 
