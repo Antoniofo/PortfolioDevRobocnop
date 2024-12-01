@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/Robocnop/PortfolioDevRobocnop/total)
+![GitHub all releases](https://img.shields.io/github/downloads/Robocnop/PortfolioDevRobocnop/total) <i>Juste un conteur</i>
 
 # PortfolioDevRobocnop
 Site en HTML fonctionnant en locale qui permet de montrer mon portfolio de développeur
