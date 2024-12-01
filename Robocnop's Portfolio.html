@@ -5,89 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio - Florent De Cnop</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
-    }
-    header {
-      background-color: #161b22;
-      padding: 1rem 0;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
-    nav li {
-      margin: 0 1rem;
-    }
-    nav a {
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem;
-      margin: 0 auto;
-      max-width: 800px;
-    }
-    h1, h2 {
-      color: #58a6ff;
-    }
-    .project {
-      background-color: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 8px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-    }
-    .project h3 {
-      margin-top: 0;
-    }
-    .project a {
-      color: #2ea043;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .project a:hover {
-      text-decoration: underline;
-    }
-    form label {
-      display: block;
-      margin: 1rem 0 0.5rem;
-    }
-    form input, form textarea, form button {
-      width: 100%;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-      border: 1px solid #30363d;
-      border-radius: 4px;
-      background-color: #161b22;
-      color: #c9d1d9;
-    }
-    form button {
-      background-color: #2ea043;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    form button:hover {
-      background-color: #24963e;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #161b22;
-      border-top: 1px solid #30363d;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -96,6 +13,7 @@
         <li><a href="#accueil">Accueil</a></li>
         <li><a href="#apropos">À propos</a></li>
         <li><a href="#projets">Projets</a></li>
+        <li><a href="#github-stats">Statistiques GitHub</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -108,7 +26,7 @@
 
   <section id="apropos">
     <h2>À propos</h2>
-    <p>Je suis un développeur avec de l'expérience en batchfiles, C# et Python. Je suis passionné par l'informatique et les nouvelles technologies.</p>
+    <p>Je suis un développeur avec de l'expérience en batchfiles, C#, Python et une connaissance approfondie de l'utilisation efficace des IA pour résoudre des problèmes complexes.</p>
   </section>
 
   <section id="projets">
@@ -135,6 +53,14 @@
     </div>
   </section>
 
+  <section id="github-stats">
+    <h2>Statistiques GitHub</h2>
+    <div class="stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=Robocnop&show_icons=true&theme=radical" alt="Statistiques GitHub">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Robocnop&layout=compact&theme=radical" alt="Langages les plus utilisés">
+    </div>
+  </section>
+
   <section id="contact">
     <h2>Contactez-moi</h2>
     <form action="mailto:robocnop@gmail.com" method="POST" enctype="text/plain">
@@ -153,7 +79,6 @@
 
   <footer>
     <p>&#169; 2024 Florent De Cnop. Tous droits réservés.</p>
-    <p><a href="https://github.com/Robocnop" style="color:#58a6ff; text-decoration:none;">Mon GitHub</a></p>
   </footer>
 </body>
 </html>
